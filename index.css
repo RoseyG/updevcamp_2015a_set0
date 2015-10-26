@@ -1,0 +1,95 @@
+body {
+  background-color: #FFFFFF;
+  color: #03195B;
+  margin: 0px
+}
+
+#header, #footer {
+  font-family: Gabriela;
+  text-align: center;
+  margin: 0;
+  padding-top: 25px;
+  width: 100%;
+  position: fixed;
+  background-color: #93143F;
+}
+
+#header {
+  font-size: 2em;
+  height: 100px;
+  top: 0px;
+}
+
+#footer {
+  font-size: 1.5em;
+  height: 75px;
+  bottom: 0px;
+}
+
+.navi {
+  text-align: center;
+}
+
+.section {
+  font-family: 'Josefin Sans';
+  font-size: 1em;
+  text-align: center;
+  width: auto;
+  height: 1000px;
+  margin: 0px;
+  padding-top: 100px;
+}
+
+.wrap {
+  width: 800px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.rcolumn {
+  float: right;
+  width: 350px;
+  padding: 25px;
+}
+
+.lcolumn {
+  float: left;
+  width: 350px;
+  padding: 25px;
+}
+
+#sec1 {
+  background-color: #D6BEEA;
+}
+
+#sec2 {
+  background-color: #C4FCE3;
+}
+
+#sec3 {
+  background-color: #F9BDB3;
+}
+
+h1, h2, h3, h6 {
+  font-family: Gabriela;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.5em;
+}
+
+h6 {
+  font-size: .5em;
+}
+
+a, a:visited, a:active, a:hover {
+  font-color: #000000;
+  text-decoration: none;
+}
