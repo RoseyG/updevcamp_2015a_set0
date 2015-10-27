@@ -5,8 +5,7 @@ body {
 }
 
 #header, #footer {
-  font-family: Gabriela;
-  text-align: center;
+  font-family: 'Bad Script';
   color: #FFFFFF;
   margin: 0px;
   width: 100%;
@@ -15,6 +14,7 @@ body {
 }
 
 #header {
+  text-align: center;
   font-size: 1.25em;
   height: 50px;
   top: 0px;
@@ -23,20 +23,26 @@ body {
 }
 
 #footer {
-  font-size: 1em;
+  font-size: .75em;
   height: 25px;
   bottom: 0px;
   padding-bottom: 15px;
   padding-top: 10px;
 }
 
-.navi {
-  text-align: center;
+#navi {
+  font-family: 'Bad Script';
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  display: flex;
+  align-items: center;
   justify-content: space-around;
+  width: 500px;
+  margin: auto;
 }
 
 .section {
-  font-family: 'Josefin Sans';
+  font-family: 'Bad Script';
   font-size: 1.25em;
   text-align: center;
   width: auto;
@@ -47,7 +53,7 @@ body {
 .wrap {
   padding-top: 75px;
   width: 900px;
-  height: 1000px;
+  height: 925px;
   margin: auto;
 }
 
@@ -65,13 +71,19 @@ body {
 
 .rfooter {
   float: right;
+  margin: auto;
   padding-right: 25px;
 }
 
 .lfooter {
   float: left;
-  margin: auto;
   padding-left: 25px;
+  width: 300px;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 #sec1 {
@@ -87,7 +99,7 @@ body {
 }
 
 #likessec {
-  background-color: #C4FCE3;
+  background-color: #C4FCD0;
 }
 
 #sec3 {
@@ -99,7 +111,7 @@ body {
 }
 
 h1, h2, h3, h6 {
-  font-family: Gabriela;
+  font-family: 'Fredericka the Great';
   margin: 0px;
 }
 
@@ -108,19 +120,32 @@ a, a.visited, a.active, a.hover {
   color: inherit;
 }
 
+.link {
+  width: 32px;
+  height: auto;
+}
+
 #profile {
   width: 350px;
   height: auto;
 }
 
 @media (max-width: 500px){
+  #footer{
+    font-size: 1em;
+    height: auto;
+    text-align: center;
+  }
   .section .wrap {
     height: 1600px;
     width: 400px;
     margin: auto;
   }
+  #navi {
+    width:350px;
+  }
   .rcolumn, .lcolumn, .rfooter, .lfooter{
     float: none;
-    width: 350px;
+    width: 300px;
   }
 }
