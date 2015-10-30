@@ -60,14 +60,14 @@ body {
   font-size: 1em;
   text-align: center;
   width: auto;
-  height: 900px;
+  height: 700px;
   margin: 0px;
 }
 
 .wrap {
   padding-top: 75px;
   width: 900px;
-  height: 825px;
+  height: 625px;
   margin: auto;
 }
 
@@ -126,6 +126,10 @@ h1, h2, h3{
 
 a, a:visited, a:active{
   text-decoration: none;
+}
+
+#section img {
+  padding: 5px;
 }
 
 #navi a:hover {
