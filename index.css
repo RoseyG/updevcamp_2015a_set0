@@ -1,8 +1,9 @@
 body {
   background-color: #FFFFFF;
-  color: ##03195B;
+  color: #03195B;
   margin: 0px;
   align-items: center;
+  overflow: hidden;
 }
 
 #header, #footer {
@@ -28,8 +29,6 @@ body {
   margin: auto;
 }
 
-
-
 #navi {
   font-family: 'Bad Script';
   display: -webkit-flex;
@@ -40,6 +39,7 @@ body {
   width: 900px;
   height: 50px;
   margin: auto;
+  border-radius:0 0 10px 10px;
   background-color: #FFFFFF;
 }
 
@@ -52,7 +52,8 @@ body {
   width: 900px;
   height: 50px;
   margin: auto;
-   background-color: #FFFFFF;
+  border-radius: 10px 10px 0 0;
+  background-color: #FFFFFF;
  }
 
 .section {
@@ -67,7 +68,7 @@ body {
 .wrap {
   padding-top: 75px;
   width: 900px;
-  height: 625px;
+  height: 65px;
   margin: auto;
 }
 
@@ -99,24 +100,12 @@ body {
   background: url("arab_tile.png");
 }
 
-#hellosec {
-  background-color: #D6BEEA;
-}
-
 #sec2 {
   background: url("congruent_pentagon.png");
 }
 
-#likessec {
-  background-color: #C4FCD0;
-}
-
 #sec3 {
   background: url("skulls.png");
-}
-
-#aboutsec {
-  background-color: #F9BDB3;
 }
 
 h1, h2, h3{
@@ -124,7 +113,7 @@ h1, h2, h3{
   margin: 0px;
 }
 
-a, a:visited, a:active{
+a, a:visited, a:active, a:hover{
   text-decoration: none;
 }
 
@@ -132,9 +121,22 @@ a, a:visited, a:active{
   padding: 5px;
 }
 
-#navi a:hover {
+#navi a {
+  height: 40px;
+  padding: 10px 10px 0 10px;
   font-family: 'Fredericka the Great';
  }
+
+#navi a:hover {
+  background-color: #03195B;
+  color: #FFFFFF;
+  border-radius: 0 0 10px 10px;
+}
+
+#navi2 img:hover {
+  background-color: #03195B;
+  border-radius: 8px;
+}
 
 .link {
   width: 32px;
