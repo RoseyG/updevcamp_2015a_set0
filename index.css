@@ -167,7 +167,7 @@ a, a:visited, a:active, a:hover{
   }
 
   .section {
-      height: 1000px;
+      height: auto;
   }
 
   .section .wrap {
@@ -175,6 +175,7 @@ a, a:visited, a:active, a:hover{
     margin: 0;
     padding: 0;
   }
+
   #navi {
     width: 80%;
   }
