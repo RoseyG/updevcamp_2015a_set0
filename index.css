@@ -61,25 +61,27 @@ body {
   font-size: 1em;
   text-align: center;
   width: auto;
+  padding-top: 75px;
   height: 700px;
   margin: 0px;
 }
 
 .wrap {
-  padding-top: 75px;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   width: 900px;
-  height: 65px;
   margin: auto;
 }
 
 .rcolumn {
-  float: right;
   width: 400px;
   padding: 25px;
 }
 
 .lcolumn {
-  float: left;
   width: 400px;
   padding: 25px;
 }
@@ -154,16 +156,45 @@ a, a:visited, a:active, a:hover{
     height: auto;
     display: block;
   }
+
+  body{
+    padding: none;
+    overflow: scroll;
+  }
+
+  .wrap {
+    flex-direction: column;
+  }
+
+  .section {
+      height: 1000px;
+  }
+
   .section .wrap {
-    height: 100%;
-    width: 400px;
-    margin: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
   #navi {
-    width:350px;
+    width: 80%;
   }
-  .rcolumn, .lcolumn, .rfooter, .lfooter{
-    float: none;
-    width: 300px;
+
+  #navi2 {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  #footer {
+      padding-bottom: 0px;
+  }
+
+  .rcolumn, .lcolumn {
+    width: 90%
+    margin: auto;
+    padding: 0;
+  }
+  .rcolumn, .lcolumn, .rfooter, .lfooter {
+    width: 100%;
   }
 }
